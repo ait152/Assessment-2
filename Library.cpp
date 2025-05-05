@@ -43,8 +43,8 @@ public:
         cout << "\"" << title << "\" has been returned.\n";
     }
 };
-
-// HardcopyBook class
+// End of the main class
+// HardcopyBook class 
 class HardcopyBook : public Book {
 public:
     string shelfNumber = "Shelf Area";
