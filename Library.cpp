@@ -43,7 +43,7 @@ public:
         cout << "\"" << title << "\" has been returned.\n";
     }
 };
-// End of the main class
+
 // HardcopyBook class 
 class HardcopyBook : public Book {
 public:
@@ -65,7 +65,7 @@ public:
         cout << "Type: E-Book license ends: " << licenseEndDate << "\n";
     }
 };
-
+// main program 
 int main() {
     const int maxLength = 10;
     Book* library[maxLength];
